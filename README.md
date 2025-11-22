@@ -14,3 +14,54 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Employee Management System (React)
+
+A simple employee task management app built with React. Admins can log in, create tasks, assign them to employees, and track their status in real time.
+
+Features
+
+Admin dashboard to manage all employees
+
+Create and assign tasks
+
+Task status tracking:
+
+Assigned
+
+Active
+
+Completed
+
+Failed
+
+Employee dashboard showing only the tasks assigned to them
+
+Clean UI with responsive layout
+
+Tech Stack
+
+React
+
+Local Storage / Dummy Backend (change as needed)
+
+Tailwind CSS (if you used it)
+
+How to Run
+npm install
+npm start
+
+Project Structure (Example)
+src/
+ ├─ components/
+ ├─ Dashboard/
+ ├─ Auth/
+ ├─ Utils/
+ └─ App.jsx
+
+Future Improvements
+
+Real backend integration (Node/Express or Django)
+
+Role-based authentication
+
+Notifications and analytics
